@@ -31,9 +31,12 @@ const skillsSection = {
   title: "What i do",
   subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
   skills: [
-    emoji("⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"),
-    emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
-    emoji("⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean")
+    emoji("⚡ Develop highly interactive Front end & Back end for your web and mobile applications"),
+    emoji("⚡ Problem-solver & write clean code"),
+    emoji("⚡ Progressive Web Applications"),
+    emoji("⚡ Develop high performance API services"),
+    emoji("⚡ Integration of third party services such as Firebase/ AWS"),
+    emoji("⚡ Write problem-solving related new content")
   ],
 
 /* Make Sure You include correct Font Awesome Classname to view your icon
