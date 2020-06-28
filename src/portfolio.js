@@ -9,8 +9,8 @@ const greeting = {
   /* Your Summary And Greeting Section */
   username: "Jinnatul Islam",
   title: "Hi all, I'm Morol",
-  subTitle: emoji("A passionate Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."),
-  resumeLink: "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing"
+  subTitle: emoji("A passionate Software Developer 🚀 and content writer ✍ having an experience of building modern Web applications with JavaScript / TypeScript/ Nodejs / Reactjs and some other cool libraries and frameworks."),
+  resumeLink: ""
 };
 
 // Your Social Media Link
