@@ -224,14 +224,24 @@ const blogSection = {
 
   blogs: [
     {
-      url: "https://blog.usejournal.com/create-a-google-assistant-action-and-win-a-google-t-shirt-and-cloud-credits-4a8d86d76eae",
-      title: "Win a Google Assistant Tshirt and $200 in Google Cloud Credits",
-      description: "Do you want to win $200 and Google Assistant Tshirt by creating a Google Assistant Action in less then 30 min?"
+      url: "https://programming-jinnatul.blogspot.com/2018/05/100-sql-problem-solution.html",
+      title: "  100 SQL Problem & Solution",
+      description: "You can learn about sql problem & query for this post."
     },
     {
-      url: "https://medium.com/@saadpasta/why-react-is-the-best-5a97563f423e",
-      title: "Why REACT is The Best?",
-      description: "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
+      url: "http://programming-jinnatul.blogspot.com/2018/09/algorithm-and-programming-technique.html",
+      title: "Algorithm and programming Technique list",
+      description: "You can learn about Competitive programming for this post."
+    },
+    {
+      url: "http://programming-jinnatul.blogspot.com/2018/09/blog-post.html",
+      title: "বাংলা ভাষায় লেখা প্রোগ্রামিং এর সবচেয়ে বড় রিসোর্স কালেকশন",
+      description: "You can learn about Competitive programming for this post, and get most important resourses."
+    },
+    {
+      url: "https://programming-jinnatul.blogspot.com/2018/12/posix-programming-how-to-create-process.html",
+      title: "Posix Programming",
+      description: "How to way create a process, child process, multiple child process., thread., multiple threads, , message, message send, message receive."
     }
   ]
 };
