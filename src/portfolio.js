@@ -167,12 +167,14 @@ const bigProjects = {
   subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
   projects: [
     {
-      image: require("./assets/images/pro-js.png"),
-      link: "http://saayahealth.com/"
+      image: require("./assets/images/npm.png"),
+      link: "https://github.com/pro-js/npm-packages",
+      description: "npm company behind Node package manager. We try to cover add all npm packages github repository link & install commands."
     },
     {
-      image: require("./assets/images/pro-js.png"),
-      link: "http://nextu.se/"
+      image: require("./assets/images/resources.png"),
+      link: "https://github.com/pro-js/resources",
+      description: "Here is a list of best resources to get you started with learning how to code. Awesome lists about all kinds of interesting topics."
     }
   ]
 };
