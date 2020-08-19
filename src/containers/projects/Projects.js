@@ -1,16 +1,12 @@
-import React, { useState, useEffect, lazy, Suspense } from "react";
+import React, { useState, useEffect } from "react";
 import ApolloClient from "apollo-boost";
 import { gql } from "apollo-boost";
 import "./Project.css";
+import GithubRepoCard from "../../components/githubRepoCard/GithubRepoCard";
 import Button from "../../components/button/Button";
-import Loading from "../loading/Loading";
-import { openSource, socialMediaLinks } from "../../portfolio";
-
+import { openSource } from "../../portfolio";
 
 export default function Projects() {
-  const GithubRepoCard = lazy(() => import('../../components/githubRepoCard/GithubRepoCard'));
-  const FailedLoading = () => null ;
-  const renderLoader = () => <Loading />;
   const [repo, setrepo] = useState([]);
 
   useEffect(() => {
@@ -23,7 +19,7 @@ export default function Projects() {
       request: (operation) => {
         operation.setContext({
           headers: {
-            authorization: `Bearer ${openSource.githubConvertedToken}`,
+            authorization: `Bearer ${atob(openSource.githubConvertedToken)}`,
           },
         });
       },
@@ -32,63 +28,57 @@ export default function Projects() {
     client
       .query({
         query: gql`
-        {
-        user(login: "${openSource.githubUserName}") {
-          pinnedItems(first: 6, types: [REPOSITORY]) {
-            totalCount
-            edges {
-              node {
-                ... on Repository {
-                  name
-                  description
-                  forkCount
-                  stargazers {
-                    totalCount
-                  }
-                  url
-                  id
-                  diskUsage
-                  primaryLanguage {
-                    name
-                    color
+          {
+            repositoryOwner(login: "${openSource.githubUserName}") {
+              ... on User {
+                pinnedRepositories(first: 6) {
+                  edges {
+                    node {
+                      nameWithOwner
+                      description
+                      forkCount
+                      stargazers {
+                        totalCount
+                      }
+                      url
+                      id
+                      diskUsage
+                      primaryLanguage {
+                        name
+                        color
+                      }
+                    }
                   }
                 }
               }
             }
           }
-        }
-      }
         `,
       })
       .then((result) => {
-        setrepoFunction(result.data.user.pinnedItems.edges);
+        setrepoFunction(result.data.repositoryOwner.pinnedRepositories.edges);
         console.log(result);
-      })
-      .catch(function (error) {
-        console.log(error);
-        setrepoFunction("Error");
-        console.log("Because of this Error, nothing is shown in place of Projects section. Projects section not configured");
       });
   }
 
   function setrepoFunction(array) {
     setrepo(array);
   }
-  if (!(typeof repo === 'string' || repo instanceof String)){
+
   return (
-    <Suspense fallback={renderLoader()}>
-      <div className="main" id="opensource">
-        <h1 className="project-title">Open Source Projects</h1>
-        <div className="repo-cards-div-main">
-          {repo.map((v, i) => {
-            return <GithubRepoCard repo={v} key={v.node.id} />;
-          })}
-        </div>
-        <Button text={"More Projects"} className="project-button" href={socialMediaLinks.github} newTab={true} />
+    <div className="main" id="opensource">
+      <h1 className="project-title">Open Source Projects</h1>
+      <div className="repo-cards-div-main">
+        {repo.map((v, i) => {
+          return <GithubRepoCard repo={v} key={v.node.id} />;
+        })}
       </div>
-    </Suspense>
+      <Button
+        text={"More Projects"}
+        className="project-button"
+        href="https://github.com/jinnatul"
+        newTab={true}
+      />
+    </div>
   );
-} else{
-    return(<FailedLoading />);
-  }
 }

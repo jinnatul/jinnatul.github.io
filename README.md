@@ -1,221 +1,217 @@
-# Software Developer Folio ⚡️ [![GitHub](https://img.shields.io/github/license/saadpasta/developer-portfolio?color=blue)](https://github.com/saadpasta/developerFolio/blob/master/LICENSE) [![GitHub stars](https://img.shields.io/github/stars/saadpasta/developerFolio)](https://github.com/saadpasta/developerFolio/stargazers)  [![All Contributors](https://img.shields.io/badge/all_contributors-4-orange.svg?style=flat-square)](#contributors) 
-
-## A clean, beautiful and responsive portfolio template for Developers!
-
-
 <p align="center"> 
-  <kbd>
-<img src="https://user-images.githubusercontent.com/49693820/81296489-999abf00-908f-11ea-9442-75e8f0ecf65d.gif"></img>
-  </kbd>
+    <img src="images/masterportfolio-banner-light.png" align="center" height="150"></img>
 </p>
 
+<h1 align="center"> Software Developer Master Portfolio 🔥 </h1> 
+<h3 align="center"> A clean, beautiful, responsive and 100% customizable portfolio <br /> template for Software Developers! </h3>
 
-Just change `src/portfolio.js` to get your personal portfolio . Feel free to use it as-is or customize it as much as you want.
+<p align="center">
+  <a href="http://hits.dwyl.com/ashutosh1919/masterPortfolio"><img alt="HitCounts" src="http://hits.dwyl.com/ashutosh1919/masterPortfolio.svg" /></a>
+  <a href="https://nodejs.org/en/blog/release/v12.13.0/"><img alt="NodeJS" src="https://img.shields.io/badge/node-12.14.1-important?style=flat-square" /></a>
+  <a href="https://www.npmjs.com/package/npm/v/6.13.4"><img alt="NPM" src="https://img.shields.io/badge/npm-6.13.7-blueviolet?style=flat-square" /></a>
+  <a href="https://reactjs.org/"><img alt="Made With React" src="https://img.shields.io/badge/made%20with-react-61DAFB?style=flat-square" /></a>
+  <a href="https://join.slack.com/t/masterportfolio/shared_invite/zt-g772n1fo-Ns4usanURF8jVb8wk2lRAA"><img alt="Join Slack Channel For Support" src="https://img.shields.io/badge/slack-masterPortfolio-yellow.svg?logo=slack?style=flat-square" /></a>
+  <a href="https://github.com/prettier/prettier"><img alt="code style: prettier" src="https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square?style=flat-square" /></a>
+  <br/>
+  <a href="https://app.netlify.com/sites/ashutosh1919portfolio/deploys"><img alt="Netlify Status" src="https://api.netlify.com/api/v1/badges/abf59f82-3251-4040-b24c-949b86691642/deploy-status?style=flat-square" /></a>
+  <a href="https://travis-ci.org/badges/badgerbadgerbadger"><img alt="Build Status" src="http://img.shields.io/travis/badges/badgerbadgerbadger.svg?style=flat-square?style=flat-square" /></a>
+  <a href="http://badges.mit-license.org/"><img alt="License" src="http://img.shields.io/:license-mit-blue.svg?style=flat-square?style=flat-square" /></a>
+  <a href="https://github.com/jinnatul/aboutmorol/commits/master"><img alt="Maintenance" src="https://img.shields.io/badge/maintained-yes-green.svg?style=flat-square" /></a>
+  <a href="http://badges.mit-license.org/"><img alt="Website" src="https://img.shields.io/badge/website-up-yellow?style=flat-square" /></a>
+  <a href="https://ashutoshhathidara.com/"><img alt="License" src="http://img.shields.io/:license-mit-blue.svg?style=flat-square?style=flat-square" /></a>
+  <a href="https://img.shields.io/badge/price-free-ff69b4"><img alt="Price" src="https://img.shields.io/badge/price-free-ff69b4?style=flat-square" /></a>
+</p>
 
-But if you want to **contribute** and make this much better for other developer have a look at [Issues](https://github.com/saadpasta/developerFolio/issues).
+<p align="center"> 
+    <a href="https://ashutosh1919.github.io" target="_blank">
+    <img src="images/masterPortfolioThemes.png"></img>
+  </a>
+</p>
 
+:star: Star us on GitHub — it helps!
 
-If you created something awesome and want to contribute then feel free to open Please don't hesitate to open an [pull request](https://github.com/saadpasta/developerFolio/pulls).
+# Sections 📚
 
-
-## Sections 
 ✔️ Summary and About me\
-✔️ Skills\
-✔️ Work Experience\
+✔️ Skills \
 ✔️ Open Source Projects Connected with Github\
-✔️ Big Projects\
-✔️ Achievements And Certifications 🏆\
+✔️ Experience\
+✔️ Certifications 🏆\
 ✔️ Blogs\
-✔️ Talks\
-✔️ Podcast\
-✔️ Contact me\
-✔️ Twitter Timeline\
-✔️ Github Profile
+✔️ Education\
+✔️ Contact me
 
-To view a live example, **[click here](https://developerfolio.js.org/)**
+To view a live example, **[click here](https://ashutosh1919.github.io/)**
 
+# Clone And Use 📋
 
-## Getting Started 🚀
+- The website is completely built on `react-js` framework of `javascript` and that's why we need `nodejs` and `npm` installed.
+- While installing `nodejs` and `npm`, try to install versions which are equal or greater than the versions mentioned in badges above.
+- In case you want to help developing it or simply saving it, you can fork the repository just by clicking the button on the top-right corner of this page.
+- After the successful installation of `nodejs` and `npm`, clone the repository into your local system using below command:
+  - ```python
+     git clone https://github.com/jinnatul/aboutmorol/masterPortfolio.git
+    ```
+  - This will clone the whole repository in your system.
+- To download required dependencies to your system, navigate to the directory where the cloned repository resides and execute following command:
+  - ```python
+    npm install
+    ```
+- Now, the project is ready to use.
+- You can check it using `npm start`, it will open the website locally on your browser.
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
+# Customize it to make your own portfolio ✏️
 
-You'll need [Git](https://git-scm.com) and [Node.js](https://nodejs.org/en/download/) (which comes with [npm](http://npmjs.com)) installed on your computer or use [Docker](https://www.docker.com/products/docker-desktop).
+In this project, there are basically 4 things that you need to change to customize this to anyone else's portfolio: **package.json**, **Personal Information**, **Github Information** and **Splash Logo**.
 
-```
-node@v10.16.0 or higher
-npm@6.9.0 or higher
-git@2.17.1 or higher
-```
-### Docker Commands 
+### package.json
 
-```
-1) BUILD IMAGE : docker build -t developerfolio:latest .
-2) RUN IMAGE: docker run -p 3000:3000 developerfolio:latest
-```
+Open this file, which is in the main cloned directory, choose any "name" and change "homepage " to `https://<your-github-username>.github.io`. Do not forget the `https://`, otherwise fonts will not load.
 
+### Personal Information
 
-## How To Use 🔧
+You will find `src/portfolio.js` file which contains the complete information about the user. The file looks something like below:
 
-From your command line, clone and run developerFolio:
-
-```bash
-# Clone this repository
-$ git clone https://github.com/saadpasta/developerFolio.git
-
-# Go into the repository
-$ cd developerFolio
-
-# Install dependencies
-$ npm install
-
-#Start's development server
-$ npm start
-```
-## Github Setup For Open Source Projects
-
-Generate a Github personal access token using these [Instructions](https://help.github.com/en/github/authenticating-to-github/creating-a-personal-access-token-for-the-command-line) `Make sure you don't select any scope just generate a simple token`
-
-1. Create a file called .env in the root directory of your project.
-
-```bash
-- DeveloperFolio
-  - node_modules
-  - public
-  - src
-  - .env         <-- create it here
-  - .gitignore
-  - package-lock.json
-  - package.json
-```
-
-2. Inside the .env file, add key `REACT_APP_GITHUB_TOKEN` and assign your github token like this.
-
-```javascript
- // .env
-
-  REACT_APP_GITHUB_TOKEN = "YOUR GITHUB TOKEN HERE"
-
-};
-```
-
-Set `showGithubProfile` to true or false to show Contact Profile using Github, defaults to false.
-
-## Change and customize every section according to your need.
-
-#### Personalize page content in `/src/portfolio.js` & modify it as per your need.
-
-```javascript
-/* Change this file to get your Personal Porfolio */
-
+```python
+// Home Page
 const greeting = {
-  /* Your Summary And Greeting Section */
-  title: "Hi all I'm Saad",
-  subTitle: emoji("A passionate Full Stack Software Developer 🚀"),
-  resumeLink: "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing"
-};
+    ...
+}
 
+// Social Media
 const socialMediaLinks = {
-  /* Your Social Media Link */
-  github: "https://github.com/saadpasta",
-  linkedin: "https://www.linkedin.com/in/saadpasta/",
-  gmail: "saadpasta70@gmail.com",
-  gitlab: "https://gitlab.com/saadpasta",
-  facebook: "https://www.facebook.com/saad.pasta7"
-};
+    ...
+}
 
-
-const skillsSection = { .... }
-
-const techStack = { .... }
-
-const workExperience = { .... } 
-
-const openSource = { .... } 
-
-const bigProjects = { .... }
-
-const achievementSection = { .... }
-
-const blogSection = { .... }
-
-const contactInfo = { .... }
-
-const twitterDetails = { ... }
-
+...
 ```
 
-#### Using Emojis
+You can change the personal information, experience, education, social media, certifications, blog information, contact information etc. in `src/portfolio.js` to directly reflect them in portfolio website.
 
-For adding emoji 😃 into the texts in `Portfolio.js`, use the `emoji()` function and pass the text you need as an argument. This would help in keeping emojis compatible across different browsers and platforms.
+### Github Information
 
-#### Adding Twitter Time line to your Page
-Insert your Twitter username in `portfolio.js` to show your recent activity on your page.
+You will find `git_data_fetcher.js` file in the main directory of the repository. This file is used to fetch the data (Pull requests, Issues, Organizations, Pinned projects etc.) from your github.
+If you open the file, you will see below component at the top of the file. You need to change only that component.
 
-```javascript
-const twitterDetails = {
-  userName : "Your Twitter Username"
+```python
+const openSource = {
+  githubConvertedToken: "Your Github Token Here.",
+  githubUserName: "Your Github Username Here.",
 };
 ```
-Note: Don't use `@` symbol when adding username.
 
-## Deployment 📦 
-When you are done with the setup, you should host your website online.
-We highly recommend to read through the [Deploying on Github Pages](https://create-react-app.dev/docs/deployment/#github-pages) docs for React.
+You can get a github token as described [here](https://docs.github.com/en/github/authenticating-to-github/creating-a-personal-access-token). Give all permissions while generating token. Also add your `githubUserName` in the correct field inside `git_data_fetcher.js`.
+Now, you need to run following command.
 
-#### Deploying to Github Pages
+```python
+node git_data_fetcher.js
+```
 
-This section guides you to deploy your portfolio on Github pages.
+This will fetch all the data from your github and it will automatically replace my data with yours.
+Whenever you want to update the github related information on the website you need to run this command.
 
-- Navigate to `package.json` and enter your domain name instead of `https://developerfolio.js.org/` in `homepage` variable. For example, if you want your site to be `https://<your-username>.github.io/developerFolio`, add the same to the homepage section of `package.json`. 
+### Splash Logo
 
-- In short you can also add `/devloperFolio` to `package.json` as both are exactly same. Upon doing so, you tell `create-react-app` to add the path assets accordingly. 
+Note here that if you click [my portfolio](https://ashutosh1919.github.io), you can see animating the logo at the beginning. I have designed that logo in [`Figma`](https://www.figma.com/) and then animated it using css.
+Therefore, this part of portfolio is not customizable. But don't worry we have a solution to this problem. You have below two alternatives:
 
-- Optionally, configure the domain. You can configure a custom domain with GitHub Pages by adding a `CNAME` file to the `public/` folder.
+- If you want to design your own logo, then you can design it using `Figma` or `Adobe XD` or `Adobe Illustrator` or `Inkscape`. If you want to animate it, you can refer to `./src/components/Loader` directory which contains `js` and `css` files which animates the logo.
+- If you don't want Splash screen or you don't know how to design logo, then this option is for you.
 
-- Follow through the guide to setup GitHub pages from the official CRA docs [here](https://create-react-app.dev/docs/deployment/#github-pages).
+  - You can open `src/portfolio.js` file and at the top of this file you will see `settings` component as below:
+  - ```python
+    // Website related settings
+    const settings = {
+      isSplash: true,
+    };
+    ```
+  - Change `isSplash` from `true` to `false`.
+  - Now, if you see your website using `npm start`, it will directly open `home` rather than animating logo `splash` screen.
+  - If you design your logo in future, then edit the files in `./src/components/Loader` and then revert `isSplash` to `true` in `src/portfolio.js`.
 
-#### Deploying to Netlify
+# Choose Theme 🌈
 
-You could also host directly with Netlify by linking your own repository.
+- You can take a look at `src/theme.js` file where all available themes are mentioned with respective color codes.
+- At the bottom of this file you will see the below code:
+  - `export const chosenTheme = blueTheme;`
+  - You need to change the name from `blueTheme` to whatever theme you want to set your website to.
+  - You can define new theme similarly as other themes and you can assign name of that new defined theme to `chosenTheme`.
+- That's it. You just need to change the theme name and the code will take care of everything else.
 
-[![Deploy To Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/saadpasta/developerFolio)
+  Run `npm start` to check if everything is ok.
 
-For more information, read [hosting on Netlify](https://create-react-app.dev/docs/deployment/#netlify).
+# Deployment 📦
 
+- Once you are done with your setup and have successfully completed all steps above, you need to put your website online!
+- I highly recommend using [Github Pages](https://create-react-app.dev/docs/deployment/#github-pages) to achieve this the EASIEST WAY.
+- To deploy your website, you have two options. First you need to create a github repository with the name `<your-github-username>.github.io`. Please don't give it any other name.
+- Now, you need to generate a production build and deploy the website.
 
-## Technologies used 🛠️
+**Option 1:**
+
+- Run `npm run build` to generate the production build folder.
+- Enter the build folder, `git init` and push the generated code to the `master` branch of your new repository. That's it. Done.
+  You may need to `git init` and force push at every new build.
+
+**Option 2 (will not work with [user pages](https://docs.github.com/en/github/working-with-github-pages/about-github-pages)):**
+
+- Run `npm run deploy` to build and create a branch called `gh-pages`. It will push the `build` files to that branch.
+- The last step in deploying is to enable `Github Pages` in settings of the repository and select `gh-pages` branch.
+
+Now, your website is successfully deployed and you can visit it at `<your-github-username>.github.io`.  
+If you are stuck somewhere and want to observe the deployment process in depth, then please watch below video.
+
+<p align="center"> 
+    <a href="http://www.youtube.com/watch?v=IwBS39TOmpA" target="_blank">
+    <img src="http://img.youtube.com/vi/IwBS39TOmpA/0.jpg"></img>
+  </a>
+</p>
+
+# Technologies used 🛠️
 
 - [React](https://reactjs.org/)
-- [graphql](https://graphql.org/) 
-- [apollo-boost](https://www.apollographql.com/docs/react/get-started/) 
-- [react-twitter-embed](https://github.com/saurabhnemade/react-twitter-embed)
-- [react-easy-emoji](https://github.com/appfigures/react-easy-emoji)
-- [color-thief](https://github.com/lokesh/color-thief)
+- [graphql](https://graphql.org/)
+- [apollo-boost](https://www.apollographql.com/docs/react/get-started/)
+- [baseui](https://github.com/uber/baseweb)
+- [react-reveal](https://www.react-reveal.com/)
+- [styled-components](https://styled-components.com/)
 
-## Illustrations
+# illustrations 🍥
+
 - [UnDraw](https://undraw.co/illustrations)
 
-## License 📄
+# License 📄
 
-This project is licensed under the GPL-3.0 License - see the [LICENSE](./LICENSE) file for details
+This project is licensed under the MIT License - see the [LICENSE.md](./LICENSE) file for details.
 
+# Contributing 💡
 
-
-## For the Future 
-If you can help us with these. Please don't hesitate to open a [pull request](https://github.com/saadpasta/developerFolio/pulls).
-
-- Connect with LinkedIn to get Summary, Skills, Education and Experience
+If you can help us with these. Please don't hesitate to open an [pull request](https://github.com/jinnatul/aboutmorol/pulls) or [issue](https://github.com/jinnatul/aboutmorol/issues).
 
 - Move to Gatsby
+- Add Podcast Section and Video Section
+- Add tests to automate review.
+- Setup Travis workflow.
 
-- Enable Dark Mode
+# Contributors ✨
 
-- Add More Sections
-
-## Project Maintainers :heart:
-
+<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
+<!-- prettier-ignore-start -->
+<!-- markdownlint-disable -->
 <table>
   <tr>
-    <td align="center"><a href="http://saadpasta.github.io"><img src="https://avatars2.githubusercontent.com/u/23307811?v=4" width="100px;" alt=""/><br /><sub><b>Jinnatul Islam</b></sub></a></td>
+    <td align="center"><a href="http://aboutmorol.herokuapp.com/"><img src="https://avatars0.githubusercontent.com/u/31995155?s=460&u=177c1b56c7949d359337e240cfe1b9d6f22ac54c&v=4" width="100px;" alt=""/><br /><sub><b>Jinnat Morol</b></sub></a><br /><a href="http://aboutmorol.herokuapp.com/" title="Code">💻</a>
+    </td>
   </tr>
 </table>
+
+<!-- markdownlint-enable -->
+<!-- prettier-ignore-end -->
+
+<!-- ALL-CONTRIBUTORS-LIST:END -->
+
+# References 👏🏻
+
+- Template taken from [Ashutosh Hathidara's Portfolio Project](https://github.com/ashutosh1919/masterPortfolio).
+- Some Design and Implementation Ideas are taken from [Saad Pasta's Portfolio Project](https://github.com/saadpasta/developerFolio).
+- The Logo of MasterPortfolio is inspired from [prettier-logo](https://github.com/prettier/prettier-logo) for [prettier](https://github.com/prettier/prettier) designed by @ianstormtaylor.

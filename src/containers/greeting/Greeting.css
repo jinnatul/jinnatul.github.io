@@ -31,49 +31,28 @@
 }
 
 .greeting-text {
+  margin-top: 80px;
   font-size: 70px;
   line-height: 1.1;
+  font-family: "Google Sans Bold";
+}
+
+.greeting-nickname {
+  font-size: 30px;
+  line-height: 0px;
+  font-family: "Google Sans Bold Italic";
 }
 
 .greeting-text-p {
-  font-size: 30px;
+  font-size: 40px;
   line-height: 40px;
+  margin-right: 40px;
+  font-family: "Google Sans Medium";
 }
 
-.greeting-image-div > img {
+.greeting-image-div > * {
   max-width: 100%;
   height: auto;
-}
-.wave-emoji {
-  animation-duration: 1.8s;
-  animation-iteration-count: infinite;
-  animation-name: wave;
-  display: inline-block;
-  transform-origin: 70% 70%;
-}
-
-@keyframes wave {
-  0% {
-    transform: rotate(0deg);
-  }
-  10% {
-    transform: rotate(-10deg);
-  }
-  20% {
-    transform: rotate(12deg);
-  }
-  30% {
-    transform: rotate(-10deg);
-  }
-  40% {
-    transform: rotate(9deg);
-  }
-  50% {
-    transform: rotate(0deg);
-  }
-  100% {
-    transform: rotate(0deg);
-  }
 }
 
 /* Media Query */
@@ -91,14 +70,26 @@
   }
   .greeting-text {
     font-size: 30px;
+    margin-top: 0px;
+    text-align: center;
+  }
+  .greeting-nickname {
+    font-size: 25px;
     text-align: center;
   }
   .greeting-text-p {
     font-size: 16px;
+    margin-right: 0px;
     line-height: normal;
     text-align: center;
   }
   .greeting-main {
     display: block;
+  }
+
+  .portfolio-repo-btn-div {
+    width: 100%;
+    display: flex;
+    justify-content: center;
   }
 }

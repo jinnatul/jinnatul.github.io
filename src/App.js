@@ -1,13 +1,20 @@
 import React from "react";
-import logo from "./logo.svg";
 import "./App.css";
 import Main from "./containers/Main";
+import { ThemeProvider } from "styled-components";
+import { chosenTheme } from "./theme";
+import { GlobalStyles } from "./global";
 
 function App() {
   return (
-    <div>
-      <Main />
-    </div>
+    <ThemeProvider theme={chosenTheme}>
+      <>
+        <GlobalStyles />
+        <div>
+          <Main theme={chosenTheme} />
+        </div>
+      </>
+    </ThemeProvider>
   );
 }
 
