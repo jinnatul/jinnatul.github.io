@@ -1,304 +1,410 @@
-﻿
-/* Change this file to get your personal Portfolio */
+/* Change this file to get your personal Porfolio */
 
-// Your Summary And Greeting Section
+// Website related settings
+const settings = {
+  isSplash: true, // Change this to false if you don't want Splash screen.
+};
 
-import emoji from "react-easy-emoji";
-
+//Home Page
 const greeting = {
-  /* Your Summary And Greeting Section */
-  username: "Jinnatul Islam",
-  title: "Hi all, I'm Morol",
-  subTitle: emoji("A passionate Software Developer 🚀 and content writer ✍ having an experience of building modern Web applications with JavaScript / TypeScript/ Nodejs / Reactjs and some other cool libraries and frameworks."),
-  resumeLink: ""
+  title: "Md. Jinnatul Islam",
+  logo_name: "Jinnat Morol",
+  nickname: "morol",
+  subTitle:
+    "A passionate Software Developer 🚀 and content writer ✍ having an experience of building modern Web applications with JavaScript / TypeScript/ Nodejs / Reactjs and some other cool libraries and frameworks.",
+  resumeLink:
+    "",
+  portfolio_repository: "https://github.com/jinnatul/aboutmorol",
 };
 
-// Your Social Media Link
+const socialMediaLinks = [
+  {
+    name: "Github",
+    link: "https://github.com/jinnatul",
+    fontAwesomeIcon: "fa-github", // Reference https://fontawesome.com/icons/github?style=brands
+    backgroundColor: "#181717", // Reference https://simpleicons.org/?q=github
+  },
+  {
+    name: "LinkedIn",
+    link: "https://www.linkedin.com/in/jinnatul-islam-morol-b07172143",
+    fontAwesomeIcon: "fa-linkedin-in", // Reference https://fontawesome.com/icons/linkedin-in?style=brands
+    backgroundColor: "#0077B5", // Reference https://simpleicons.org/?q=linkedin
+  },
+  {
+    name: "YouTube",
+    link: "https://www.youtube.com/channel/UCc9Bj9gAS0wWR0DCvkN3H5Q/videos?view_as=subscriber",
+    fontAwesomeIcon: "fa-youtube", // Reference https://fontawesome.com/icons/youtube?style=brands
+    backgroundColor: "#FF0000", // Reference https://simpleicons.org/?q=youtube
+  },
+  {
+    name: "Gmail",
+    link: "mailto:morolswediu@gmail.com",
+    fontAwesomeIcon: "fa-google", // Reference https://fontawesome.com/icons/google?style=brands
+    backgroundColor: "#D14836", // Reference https://simpleicons.org/?q=gmail
+  },
+  {
+    name: "Twitter",
+    link: "https://twitter.com/morolswediu",
+    fontAwesomeIcon: "fa-twitter", // Reference https://fontawesome.com/icons/twitter?style=brands
+    backgroundColor: "#1DA1F2", // Reference https://simpleicons.org/?q=twitter
+  },
+  {
+    name: "Facebook",
+    link: "https://www.facebook.com/mdjinnatul.islam",
+    fontAwesomeIcon: "fa-facebook-f", // Reference https://fontawesome.com/icons/facebook-f?style=brands
+    backgroundColor: "#1877F2", // Reference https://simpleicons.org/?q=facebook
+  },
+  {
+    name: "Instagram",
+    link: "https://www.instagram.com/mdjinnatulmorol/",
+    fontAwesomeIcon: "fa-instagram", // Reference https://fontawesome.com/icons/instagram?style=brands
+    backgroundColor: "#E4405F", // Reference https://simpleicons.org/?q=instagram
+  },
+];
 
-const socialMediaLinks = {
-
-  github: "https://github.com/jinnatul",
-  linkedin: "https://www.linkedin.com/in/jinnatul-islam-morol-b07172143",
-  gmail: "morolswediu@gmail.com",
-  twitter: "https://twitter.com/morolswediu",
-  facebook: "https://www.facebook.com/mdjinnatul.islam"
-  // Instagram and Twitter are also supported in the links!
-};
-
-// Your Skills Section
-
-const skillsSection = {
-  title: "What i do",
-  subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
-  skills: [
-    emoji("⚡ Develop highly interactive Front end & Back end for your web and mobile applications"),
-    emoji("⚡ Problem-solver & write clean code"),
-    emoji("⚡ Progressive Web Applications"),
-    emoji("⚡ Develop high performance API services"),
-    emoji("⚡ Integration of third party services such as Firebase/ AWS"),
-    emoji("⚡ Write problem-solving related new content")
+const skills = {
+  data: [
+    {
+      title: "Full Stack Development",
+      fileName: "FullStackImg",
+      skills: [
+        "⚡ Building resposive website front end using React & Materializecss",
+        "⚡ Develop high performance API services",
+        "⚡ Progressive Web Applications",
+        "⚡ Creating application backend in Node, Express",
+      ],
+      softwareSkills: [
+        {
+          skillName: "HTML5",
+          fontAwesomeClassname: "simple-icons:html5",
+          style: {
+            color: "#E34F26",
+          },
+        },
+        {
+          skillName: "CSS3",
+          fontAwesomeClassname: "fa-css3",
+          style: {
+            color: "#1572B6",
+          },
+        },
+        {
+          skillName: "Sass",
+          fontAwesomeClassname: "simple-icons:sass",
+          style: {
+            color: "#CC6699",
+          },
+        },
+        {
+          skillName: "JavaScript",
+          fontAwesomeClassname: "simple-icons:javascript",
+          style: {
+            backgroundColor: "#000000",
+            color: "#F7DF1E",
+          },
+        },
+        {
+          skillName: "ReactJS",
+          fontAwesomeClassname: "simple-icons:react",
+          style: {
+            color: "#61DAFB",
+          },
+        },
+        {
+          skillName: "NodeJS",
+          fontAwesomeClassname: "simple-icons:node-dot-js",
+          style: {
+            color: "#339933",
+          },
+        },
+        {
+          skillName: "NPM",
+          fontAwesomeClassname: "simple-icons:npm",
+          style: {
+            color: "#CB3837",
+          },
+        }
+      ],
+    },
+    {
+      title: "UI/UX Design",
+      fileName: "DesignImg",
+      skills: [
+        "⚡ Designing highly attractive user interface for mobile and web applications",
+        "⚡ Customizing logo designs and building logos from scratch",
+        "⚡ Creating the flow of application functionalities to optimize user experience",
+      ],
+      softwareSkills: [
+        {
+          skillName: "Adobe XD",
+          fontAwesomeClassname: "simple-icons:adobexd",
+          style: {
+            color: "#FF2BC2",
+          },
+        }
+      ],
+    },
+    {
+      title: "Machine learning & DS",
+      fileName: "DataScienceImg",
+      skills: [
+        "⚡ Developing highly scalable production ready models for various deeplearning and statistical use cases",
+        "⚡ Experience of working with Supervised-Learning projects",
+      ],
+      softwareSkills: [
+        {
+          skillName: "Tensorflow",
+          fontAwesomeClassname: "logos-tensorflow",
+          style: {
+            backgroundColor: "transparent",
+          },
+        },
+        {
+          skillName: "Python",
+          fontAwesomeClassname: "ion-logo-python",
+          style: {
+            backgroundColor: "transparent",
+            color: "#3776AB",
+          },
+        },
+      ],
+    },
+    {
+      title: "Cloud Infra-Architecture",
+      fileName: "CloudInfraImg",
+      skills: [
+        "⚡ Experience working on multiple cloud platforms",
+        "⚡ Hosting and maintaining websites on virtual machine instances along with integration of databases",
+      ],
+      softwareSkills: [
+        {
+          skillName: "AWS",
+          fontAwesomeClassname: "simple-icons:amazonaws",
+          style: {
+            color: "#FF9900",
+          },
+        },
+        {
+          skillName: "Azure",
+          fontAwesomeClassname: "simple-icons:microsoftazure",
+          style: {
+            color: "#0089D6",
+          },
+        },
+        {
+          skillName: "Firebase",
+          fontAwesomeClassname: "simple-icons:firebase",
+          style: {
+            color: "#FFCA28",
+          },
+        },
+        {
+          skillName: "MongoDB",
+          fontAwesomeClassname: "simple-icons:mongodb",
+          style: {
+            color: "#47A248",
+          },
+        },
+        {
+          skillName: "Docker",
+          fontAwesomeClassname: "simple-icons:docker",
+          style: {
+            color: "#1488C6",
+          },
+        },
+      ],
+    }
   ],
+};
 
-/* Make Sure You include correct Font Awesome Classname to view your icon
-https://fontawesome.com/icons?d=gallery */
+// Education Page
+const competitiveSites = {
+  competitiveSites: [
+    {
+      siteName: "HackerRank",
+      iconifyClassname: "simple-icons:hackerrank",
+      style: {
+        color: "#2EC866",
+      },
+      profileLink: "https://www.hackerrank.com/jinnatul",
+    },
+    {
+      siteName: "Codeforces",
+      iconifyClassname: "simple-icons:codeforces",
+      style: {
+        color: "#1F8ACB",
+      },
+      profileLink: "http://codeforces.com/profile/jinnatul",
+    },
+    {
+      siteName: "Kaggle",
+      iconifyClassname: "simple-icons:kaggle",
+      style: {
+        color: "#20BEFF",
+      },
+      profileLink: "https://www.kaggle.com/jinnatmorol",
+    },
+  ],
+};
 
-  softwareSkills: [
+const degrees = {
+  degrees: [
     {
-      skillName: "html-5",
-      fontAwesomeClassname: "fab fa-html5"
+      title: "Daffodil International University",
+      subtitle: "B.Sc in Software Engineering",
+      logo_path: "diu.png",
+      alt_name: "DIU",
+      duration: "2017 - Present",
+      descriptions: [
+        "⚡ I have studied software engineering subjects like DS, Algorithms, DBMS, OS, CA, AI etc.",
+        "⚡ Apart from this, I have done courses on Machine Learning, Artificial intelligence, Data Science, Cloud Computing and Full Stack Development.",
+        "⚡ I was selected for Merit cum Means Scholarship which is given to top 10% of students in university.",
+      ],
+      website_link: "http://daffodilvarsity.edu.bd/",
     },
+  ],
+};
+
+const certifications = {
+  certifications: [
     {
-      skillName: "css3",
-      fontAwesomeClassname: "fab fa-css3-alt"
-    },
-    {
-      skillName: "reactjs",
-      fontAwesomeClassname: "fab fa-react"
-    },
-    {
-      skillName: "nodejs",
-      fontAwesomeClassname: "fab fa-node"
-    },
-    {
-      skillName: "npm",
-      fontAwesomeClassname: "fab fa-npm"
-    },
-    {
-      skillName: "mongoDB",
-      fontAwesomeClassname: "fas fa-database"
-    },
-    {
-      skillName: "aws",
-      fontAwesomeClassname: "fab fa-aws"
-    },
-    {
-      skillName: "firebase",
-      fontAwesomeClassname: "fas fa-fire"
-    },
-    {
-      skillName: "python",
-      fontAwesomeClassname: "fab fa-python"
-    },
-    {
-      skillName: "docker",
-      fontAwesomeClassname: "fab fa-docker"
+      title: "Take-off Programming Contest",
+      subtitle: "- Prof. Dr. Syed Akhter Hossain",
+      logo_path: "takeoff-summer17.jpg",
+      certificate_link:
+        "",
+      alt_name: "Daffodil International University",
+      color_code: "#8C151599",
     }
-  ]
+  ],
 };
 
-// Your top 3 proficient stacks/tech experience
-
-const techStack = {
-  viewSkillBars: true, //Set it to true to show Proficiency Section
-  experience: [
+// Experience Page
+const experience = {
+  title: "Experience",
+  subtitle: "Work, Internship and Volunteership",
+  description:
+    "I have worked with many evolving startups as Software Architect & Developer. I love organising events and that is why I am also involved with many opensource communities as a representative.",
+  header_image_path: "experience.svg",
+  sections: [
     {
-      Stack: "Backend/ServerSide",  //Insert stack or technology you have experience in
-      progressPercentage: "90%"  //Insert relative proficiency in percentage
+      title: "Work",
+      experiences: [
+        {
+          title: "Back-End Developer",
+          company: "Pro - Js",
+          company_url: "https://github.com/pro-js",
+          logo_path: "pro-js.png",
+          duration: "June 2020 - PRESENT",
+          location: "Dhaka, Dhanmondi",
+          description:
+            "",
+          color: "#0879bf",
+        },
+        {
+          title: "Software Engineer",
+          company: "TeamTigers",
+          company_url: "https://github.com/TeamTigers",
+          logo_path: "teamTigers.jpeg",
+          duration: "April 2020 - PRESENT",
+          location: "Dhaka, Dhanmondi",
+          description:
+            "",
+          color: "#0879bf",
+        },
+        {
+          title: "Back-End Developer",
+          company: "e-Luminous",
+          company_url: "https://github.com/e-Luminous",
+          logo_path: "eLuminous.png",
+          duration: "May 2019 - PRESENT",
+          location: "Dhaka, Dhanmondi",
+          description:
+            "",
+          color: "#0879bf",
+        },
+      ],
     },
     {
-      Stack: "Frontend",
-      progressPercentage: "70%"
+      title: "Internships",
+      experiences: [
+        {
+          title: "Coming soon",
+          company: "Coming soon",
+          company_url: "Coming soon",
+          logo_path: "pro-js.png",
+          duration: "Coming soon",
+          location: "Coming soon",
+          description:
+            "Coming soon",
+          color: "#ee3c26",
+        }
+      ],
     },
     {
-      Stack: "Programming",
-      progressPercentage: "80%"
+      title: "Volunteerships",
+      experiences: [
+        {
+          title: "Developer Program Member",
+          company: "Github",
+          company_url: "https://github.com/",
+          logo_path: "github_logo.png",
+          duration: "July 2019 - PRESENT",
+          location: "Work From Home",
+          description:
+            "I am actively contributing to many opensource projects. I have contributed to projects of organisations like Js - Pro, TeamTigers, e-Luminous, Devsonket etc. These contributions include bug fixes, feature requests and formulating peoper documentation for project.",
+          color: "#181717",
+        },
+      ],
     },
-    {
-      Stack: "Algorithms & Data Structure",
-      progressPercentage: "85%"
-    },
-    {
-      Stack: "Database",
-      progressPercentage: "90%"
-    }
-  ]
+  ],
 };
 
-
-// Your top 3 work experiences
-
-const workExperiences = {
-  viewExperiences: true, //Set it to true to show workExperiences Section
-  experience: [
-    {
-      role: "Back-End Developer",  
-      company: "Js - Pro",
-      companylogo: require("./assets/images/pro-js.png"),
-      date: "June 2020 – Present",
-      desc: "",
-      organizationURL: "https://github.com/pro-js",
-      descBullets: [
-
-      ]
-    },
-    {
-      role: "Software Engineer",  
-      company: "TeamTigers",
-      companylogo: require("./assets/images/teamTigers.jpeg"),
-      date: "April 2020 – Present",
-      desc: "",
-      organizationURL: "https://github.com/TeamTigers"
-    },
-    {
-      role: "Back-End Developer",   
-      company: "e-Luminous",
-      companylogo: require("./assets/images/eLuminous.png"),
-      date: "May 2019 – April 2020",
-      desc: "",
-      organizationURL: "https://github.com/e-Luminous"
-    }
-  ]
+// Projects Page
+const projectsHeader = {
+  title: "Projects",
+  description:
+    "My projects makes use of vast variety of latest technology tools. My best experience is to create API based projects and deploy them to web applications using cloud infrastructure.",
+  avatar_image_path: "projects_image.svg",
 };
 
-/* Your Open Source Section to View Your Github Pinned Projects
-To know how to get github key look at readme.md */
-
-const openSource = {
-  githubConvertedToken: process.env.REACT_APP_GITHUB_TOKEN,
-  githubUserName: "jinnatul", // Change to your github username to view your profile in Contact Section.
-  showGithubProfile :"true" // Set true or false to show Contact profile using Github, defaults to false 
+// Contact Page
+const contactPageData = {
+  contactSection: {
+    title: "Contact Me",
+    profile_image_path: "me.png",
+    description:
+      "I am available on almost every social media. You can message me, I will reply within 24 hours. I can help you with API, Node, ML, React, Cloud and Opensource Development.",
+  },
+  blogSection: {
+    title: "Blogs",
+    subtitle:
+      "For individual fundamental empowerment, I like to write powerful lessons that create impact on each of the reader individually to change the core of their character.",
+    link: "http://programming-jinnatul.blogspot.com/",
+    avatar_image_path: "blogs_image.svg",
+  },
+  addressSection: {
+    title: "Address",
+    subtitle:
+      "Dhanmondi-32, Dhaka, Bangladesh",
+    avatar_image_path: "address_image.svg",
+    location_map_link: "",
+  },
+  phoneSection: {
+    title: "Phone Number",
+    subtitle: "+880-1793-696177",
+  },
 };
 
-
-// Some Big Projects You have worked with your company
-
-const bigProjects = {
-  title: "Big Projects",
-  subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
-  projects: [
-    {
-      image: require("./assets/images/npm.png"),
-      link: "https://github.com/pro-js/npm-packages",
-      description: "npm company behind Node package manager. We try to cover add all npm packages github repository link & install commands."
-    },
-    {
-      image: require("./assets/images/resources.png"),
-      link: "https://github.com/pro-js/resources",
-      description: "Here is a list of best resources to get you started with learning how to code. Awesome lists about all kinds of interesting topics."
-    }
-  ]
-};
-
-// Your Achievement Section Include Your Certification Talks and More
-
-const achievementSection = {
-
-  title: emoji("Achievements And Certifications 🏆 "),
-  subtitle: "Achievements, Certifications, Award Letters and Some Cool Stuff that I have done !",
-
-  achivementsCards: [
-    {
-      title: "Most active GitHub users in Bangladesh",
-      subtitle: "Top active github user in Bangladesh.",
-      image: require("./assets/images/topCommit.png"),
-      footerLink: [
-        { name: "Source", url: "https://commits.top/bangladesh.html" }
-      ]
-    },
-    {
-      title: "Summer Take-Off 2017",
-      subtitle: "Competitive programming content.",
-      image: require("./assets/images/diu9.jpg"),
-      footerLink: [
-        { name: "Source", url: " http://algo.codemarshal.org/contests/diu-summer2017-takeoff-main/standings" }
-      ]
-    },
-
-    {
-      title: "6 Star Gold on OJ",
-      subtitle: "I achive this 6 star Gold Level Badge on Hackerrank online judge",
-      image: require("./assets/images/hrGold.png"),
-      footerLink: [
-        { name: "Source", url: "https://www.hackerrank.com/jinnatul" }
-      ]
-    }
-  ]
-};
-
-// Blogs Section
-
-const blogSection = {
-
-  title: "Blogs",
-  subtitle: "With Love for Developing cool stuff, I love to write and teach others what I have learnt.",
-
-  blogs: [
-    {
-      url: "https://programming-jinnatul.blogspot.com/2018/05/100-sql-problem-solution.html",
-      title: "  100 SQL Problem & Solution",
-      description: "You can learn about sql problem & query for this post."
-    },
-    {
-      url: "http://programming-jinnatul.blogspot.com/2018/09/algorithm-and-programming-technique.html",
-      title: "Algorithm and programming Technique list",
-      description: "You can learn about Competitive programming for this post."
-    },
-    {
-      url: "http://programming-jinnatul.blogspot.com/2018/09/blog-post.html",
-      title: "বাংলা ভাষায় লেখা প্রোগ্রামিং এর সবচেয়ে বড় রিসোর্স কালেকশন",
-      description: "You can learn about Competitive programming for this post, and get most important resourses."
-    },
-    {
-      url: "https://programming-jinnatul.blogspot.com/2018/12/posix-programming-how-to-create-process.html",
-      title: "Posix Programming",
-      description: "How to way create a process, child process, multiple child process., thread., multiple threads, , message, message send, message receive."
-    }
-  ]
-};
-
-// Talks Sections
-
-const talkSection = {
-  title: "TALKS",
-  subtitle: emoji("I LOVE TO SHARE MY LIMITED KNOWLEDGE AND GET A SPEAKER BADGE 😅"),
-
-  talks: [
-    {
-      title: "Build Actions For Google Assistant",
-      subtitle: "Codelab at GDG DevFest Karachi 2019",
-      slides_url: "https://bit.ly/saadpasta-slides",
-      event_url: "https://www.facebook.com/events/2339906106275053/"
-    }
-  ]
-};
-
-// Podcast Section
-
-const podcastSection = {
-  title: emoji("Podcast 🎙️"),
-  subtitle: "I LOVE TO TALK ABOUT MYSELF AND TECHNOLOGY",
-
-  // Please Provide with Your Podcast embeded Link
-  podcast: ["https://anchor.fm/codevcast/embed/episodes/DevStory---Saad-Pasta-from-Karachi--Pakistan-e9givv/a-a15itvo"]
-};
-
-const contactInfo = {
-  title: emoji("Contact Me ☎️"),
-  subtitle: "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+880-1793-696177",
-  email_address: "morolswediu@gmail.com"
-};
-
-//Twitter Section
-
-const twitterDetails = {
-
-  userName : "morolswediu"//Replace "twitter" with your twitter username without @
-  
-};
-
-export { 
-  greeting, 
-  socialMediaLinks, 
-  skillsSection, 
-  techStack, 
-  workExperiences, 
-  openSource, 
-  bigProjects, 
-  achievementSection, 
-  blogSection, 
-  talkSection, 
-  podcastSection, 
-  contactInfo , 
-  twitterDetails
+export {
+  settings,
+  greeting,
+  socialMediaLinks,
+  skills,
+  competitiveSites,
+  degrees,
+  certifications,
+  experience,
+  projectsHeader,
+  contactPageData,
 };

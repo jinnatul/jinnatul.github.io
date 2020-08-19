@@ -2,12 +2,14 @@
   font-size: 2em;
 }
 
+.icon-button i {
+  color: white;
+}
 .icon-button {
   margin-bottom: 10px;
 }
 
 .icon-button i {
-  color: white;
   border-radius: 2.6rem;
   cursor: pointer;
   display: inline-block;
@@ -25,7 +27,7 @@
   margin-bottom: 10px;
 }
 
-.facebook i {
+/* .facebook i {
   background-color: #3b5998;
 }
 
@@ -50,20 +52,15 @@
 }
 
 .instagram i {
-  background-color: #c13584;
-}
+  background-color: #E4405F;
+} */
 
-/* Hover Transition */
-.twitter i:hover,
-.google i:hover,
-.gitlab i:hover,
-.github i:hover,
-.linkedin i:hover,
-.facebook i:hover,
-.instagram i:hover {
+/*Hover Transition*/
+/* .twitter i:hover, .google i:hover, .gitlab i:hover,
+.github i:hover ,.linkedin i:hover ,.facebook i:hover, .instagram i:hover{
   background-color: black;
   transition: 0.3s ease-in;
-}
+} */
 
 /* Media Query */
 @media (max-width: 768px) {

@@ -1,42 +1,69 @@
-import React, { useState, useEffect, createRef } from "react";
+import React, { Component } from "react";
 import "./ExperienceCard.css";
-import ColorThief from "colorthief";
 
-export default function ExperienceCard({ cardInfo }) {
-  const [colorArrays, setColorArrays] = useState([]);
-  const imgRef = createRef();
-
-  function getColorArrays() {
-    const colorThief = new ColorThief();
-    setColorArrays(colorThief.getColor(imgRef.current));
-  }
-
-  function rgb(values) {
-    return typeof values === "undefined" ? null : "rgb(" + values.join(', ') + ")";
-  }
-
-  const GetDescBullets = ({ descBullets }) => {
-    return descBullets ? descBullets.map((item) => <li className="subTitle">{item}</li>) : null
-  };
-
-  return (
-    <div className="experience-card">
-      <div style={{background: rgb(colorArrays) }} className="experience-banner">
-        <div className="experience-blurred_div"></div>
-        <div className="experience-div-company">
-          <h5 className="experience-text-company">{cardInfo.company}</h5>
+class ExperienceCard extends Component {
+  render() {
+    const experience = this.props.experience;
+    const theme = this.props.theme;
+    return (
+      <div
+        className="experience-card"
+        style={{ border: `1px solid ${experience["color"]}` }}
+      >
+        <div className="experience-card-logo-div">
+          <img
+            className="experience-card-logo"
+            src={require(`../../assests/images/${experience["logo_path"]}`)}
+            alt=""
+          />
         </div>
-        
-        <img crossOrigin={"anonymous"} ref={imgRef} className="experience-roundedimg" src={cardInfo.companylogo} alt={cardInfo.company} onLoad={() => getColorArrays()}/>
+        <div className="experience-card-body-div">
+          <div className="experience-card-header-div">
+            <div className="experience-card-heading-left">
+              <h3
+                className="experience-card-title"
+                style={{ color: theme.text }}
+              >
+                {experience["title"]}
+              </h3>
+              <p
+                className="experience-card-company"
+                style={{ color: theme.text }}
+              >
+                <a
+                  href={experience["company_url"]}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  {experience["company"]}
+                </a>
+              </p>
+            </div>
+            <div className="experience-card-heading-right">
+              <p
+                className="experience-card-duration"
+                style={{ color: theme.secondaryText }}
+              >
+                {experience["duration"]}
+              </p>
+              <p
+                className="experience-card-location"
+                style={{ color: theme.secondaryText }}
+              >
+                {experience["location"]}
+              </p>
+            </div>
+          </div>
+          <p
+            className="experience-card-description"
+            style={{ color: theme.text }}
+          >
+            {experience["description"]}
+          </p>
+        </div>
       </div>
-      <div className="experience-text-details">
-        <h5 className="experience-text-role">{cardInfo.role}</h5>
-        <h5 className="experience-text-date">{cardInfo.date}</h5>
-        <p className="subTitle experience-text-desc">{cardInfo.desc}</p>
-        <ul>
-          <GetDescBullets descBullets={cardInfo.descBullets} />
-        </ul>
-      </div>
-    </div>
-  );
+    );
+  }
 }
+
+export default ExperienceCard;
