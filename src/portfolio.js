@@ -9,7 +9,7 @@ const settings = {
 const greeting = {
   title: "Md. Jinnatul Islam",
   logo_name: "Jinnat Morol",
-  nickname: "morol",
+  nickname: "Morol",
   subTitle:
     "A passionate Software Developer 🚀 and content writer ✍ having an experience of building modern Web applications with JavaScript / TypeScript/ Nodejs / Reactjs and some other cool libraries and frameworks.",
   resumeLink:
