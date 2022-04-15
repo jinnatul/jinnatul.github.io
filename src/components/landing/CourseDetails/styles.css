@@ -1,0 +1,12 @@
+.ant-modal,
+.ant-modal-content {
+  height: 96vh;
+  width: 95vw;
+  margin: 0;
+  top: -5vw;
+  margin-left: -33vw;
+}
+
+.ant-modal-body {
+  height: calc(100vh - 110px);
+}

@@ -1,20 +1,18 @@
 import React from "react";
-import "./App.css";
-import Main from "./containers/Main";
-import { ThemeProvider } from "styled-components";
-import { chosenTheme } from "./theme";
-import { GlobalStyles } from "./global";
+import { Routes, Route } from "react-router-dom";
+import Home from './pages/Home'
+import Courses from './pages/Courses'
+import CoursesDetails from './pages/CoursesDetails'
 
-function App() {
+const App = () => {
   return (
-    <ThemeProvider theme={chosenTheme}>
-      <>
-        <GlobalStyles />
-        <div>
-          <Main theme={chosenTheme} />
-        </div>
-      </>
-    </ThemeProvider>
+    <div>
+      <Routes>
+        <Route exact path="/" element={<Home/>} key={1}/>
+        <Route exact path="/courses" element={<Courses/>} key={1}/>
+        <Route exact path="/courses/:id" element={<CoursesDetails/>} key={2}/>
+      </Routes>
+    </div>
   );
 }
 
