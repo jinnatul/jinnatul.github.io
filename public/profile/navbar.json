@@ -1,39 +1,43 @@
 {
-    "logo" : {
-        "source": "images/logo.png",
-        "height" : 50,
-        "width" : 50
+  "logo": {
+    "source": "images/logo.png",
+    "height": 50,
+    "width": 50
+  },
+  "sections": [
+    {
+      "title": "Home",
+      "href": "/"
     },
-    "sections": [
-        {
-            "title": "Home",
-            "href": "/"
-        },
-        {
-            "title": "About",
-            "href": "/about"
-        },
-        {
-            "title": "Skills",
-            "href": "/skills"
-        },
-        {
-            "title": "Education",
-            "href": "/education"
-        },
-        {
-            "title": "Experience",
-            "href": "/experience"
-        },
-        {
-            "title": "Projects",
-            "href": "/projects"
-        },
-        {
-            "title": "Resume",
-            "href": "https://drive.google.com/file/d/13kaPsdMNDsM4LV9g7m5-E5PTildp-yYf/view?usp=sharing",
-            "type": "link"
-        }
-    ]
-
+    {
+      "title": "About",
+      "href": "/about"
+    },
+    {
+      "title": "Skills",
+      "href": "/skills"
+    },
+    {
+      "title": "Education",
+      "href": "/education"
+    },
+    {
+      "title": "Experience",
+      "href": "/experience"
+    },
+    {
+      "title": "Projects",
+      "href": "/projects"
+    },
+    {
+      "title": "Blog",
+      "href": "https://www.zinnatul.xyz",
+      "type": "link"
+    },
+    {
+      "title": "Resume",
+      "href": "https://drive.google.com/file/d/1ot4tYaVXSy_kCTCPDByNKXQy42f0B2-n/view?usp=sharing",
+      "type": "link"
+    }
+  ]
 }
