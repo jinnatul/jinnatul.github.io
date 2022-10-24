@@ -59,7 +59,7 @@
         },
         {
           "icon": "images/skills/aws_s3.webp",
-          "title": "AWS SQS"
+          "title": "AWS S3"
         },
         {
           "icon": "images/skills/aws_sqs.png",
@@ -96,7 +96,7 @@
         },
         {
           "icon": "images/skills/nginx.jpg",
-          "title": "Jenkins"
+          "title": "Nginx"
         }
       ]
     }
