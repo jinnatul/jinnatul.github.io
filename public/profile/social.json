@@ -1,16 +1,32 @@
 {
-    "social": [
-        {
-            "network" : "linkedin",
-            "href": "https://linkedin.com/"
-        },
-        {
-            "network" : "github",
-            "href": "https://github.com/mayankagarwal09"
-        },
-        {
-            "network" : "email",
-            "href": "mailto:test@test.com"
-        }
-    ]
+  "social": [
+    {
+      "network": "linkedin",
+      "href": "https://www.linkedin.com/in/morol1957"
+    },
+    {
+      "network": "github",
+      "href": "https://github.com/jinnatul"
+    },
+    {
+      "network": "twitter",
+      "href": "https://twitter.com/jinnatul_md"
+    },
+    {
+      "network": "facebook",
+      "href": "https://www.facebook.com/morol1957"
+    },
+    {
+      "network": "whatsapp",
+      "href": "https://wa.me/01793696177"
+    },
+    {
+      "network": "email",
+      "href": "mailto:morolswediu@gmail.com"
+    },
+    {
+      "network": "youtube",
+      "href": "https://www.youtube.com/channel/UCc9Bj9gAS0wWR0DCvkN3H5Q"
+    }
+  ]
 }
