@@ -14,6 +14,10 @@
       "href": "/about"
     },
     {
+      "title": "Experience",
+      "href": "/experience"
+    },
+    {
       "title": "Skills",
       "href": "/skills"
     },
@@ -22,21 +26,22 @@
       "href": "/education"
     },
     {
-      "title": "Experience",
-      "href": "/experience"
-    },
-    {
       "title": "Projects",
       "href": "/projects"
     },
     {
+      "title": "Projects handovers",
+      "href": "https://docs.google.com/document/d/1LmdPCrhSIJ59ShzlxxFsKROPEQi9w4BDjMvyAj7nGkQ",
+      "type": "link"
+    },
+    {
       "title": "Blog",
-      "href": "https://www.zinnatul.xyz",
+      "href": "https://programming-jinnatul.blogspot.com",
       "type": "link"
     },
     {
       "title": "Resume",
-      "href": "https://drive.google.com/file/d/1ot4tYaVXSy_kCTCPDByNKXQy42f0B2-n/view?usp=sharing",
+      "href": "https://drive.google.com/file/d/1o_XwX5qGUbAnV_aghEJ3tKd9K2uUyAi3/view",
       "type": "link"
     }
   ]

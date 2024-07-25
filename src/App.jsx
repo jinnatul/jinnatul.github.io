@@ -11,7 +11,7 @@ import { lightTheme, darkTheme } from './theme/themes';
 
 function App() {
   window.matchMedia = null;
-  const darkMode = useDarkMode(true);
+  const darkMode = useDarkMode(false);
 
   return (
     <AppContext.Provider value={{ darkMode }}>

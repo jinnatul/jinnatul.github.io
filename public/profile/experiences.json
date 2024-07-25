@@ -5,9 +5,12 @@
       "subtitle": "V2 Technologies Ltd",
       "workType": "Full-time",
       "workDescription": [
-        "Build rest API using express.js",
-        "Research and development (R&D)",
-        "Tech team lead for eCrm project and launching new campaigns"
+        "Helped to build a **CRM** solution for **BATB** and **Unilever**. **Led** the technical team for the BATB's CRM system. Significantly reducing operational costs.",
+        "Reduced the cost involved in running custom reports service by more than **80%** by devising an automated system.",
+        "Using Git for version control, collaborating with team members (Devs and DevOps), and managing code base changes. Code reviews, Deploy system versions, and branching strategies for efficient team collaboration.",
+        "Developed an internal APK distribution platform here to distribute APKs to internal users. Managed user devices using the MDM system. Reduced 30% false consumer contact for BATB's campaigns.",
+        "Implemented a file-sharing platform, here clients upload big files like 1GB/2GB, etc. Implemented chunk-wise upload and store files at AWS S3 and generated dynamic 3/4 thumbnails using the image processing library Sharp.",
+        "Express.JS, PostgreSQL, AWS (EC2, S3, SQS, SES), Jenkins."
       ],
       "dateText": "07/2022 – Present"
     },
@@ -16,22 +19,22 @@
       "subtitle": "V2 Technologies Ltd",
       "workType": "Full-time",
       "workDescription": [
-        "Build rest API using express.js",
-        "Research and development (R&D)"
+        "Worked on user identity verification using govt porichoy service.",
+        "Improved the logging and troubleshooting capabilities, reduced 20% time to troubleshooting issues."
       ],
       "dateText": "02/2021 – 06/2022"
     },
     {
-      "title": "Full-Stack Developer with Node.js Expertise",
+      "title": "Full Stack Web Developer | DevOps | Automation Expert | Zapier | Make",
       "subtitle": "Upwork / Contract Wise",
       "workType": "Freelance",
       "workDescription": [
-        "Rest & GraphQL API design, implementation, and integration",
-        "Modern, Fast, and Installable Progressive Web Apps development (PWA)",
-        "Secured, easy to scale, and Sustainable product development.",
-        "Passport Authentication (Like Google, Facebook, Github, Linkedin, etc)",
-        "Live stream (Socket.io, WebRTC, Agora.io)",
-        "Research and development (R&D)"
+        "🚀 API Mastery: Expert in crafting scalable REST and GraphQL APIs for seamless integration.",
+        "🚀 Authentication: Secure Passport Authentication with integration for Google, Facebook, Github, and LinkedIn.",
+        "🚀 Google's Power: Leverage Google APIs for enhanced functionalities.",
+        "🚀 Database Dexterity: Experienced with MongoDB, PostgreSQL, SQL Server, MySQL, and Firebase.",
+        "🚀 Live Streaming: Enhance engagement with real-time features using Socket.io, WebRTC, and Agora.io.",
+        "🚀 UX/UI Design: Create stunning designs with Figma and Adobe XD for a seamless user experience."
       ],
       "dateText": "06/2020 – Present"
     }

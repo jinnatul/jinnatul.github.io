@@ -1,15 +1,28 @@
 {
   "projects": [
     {
-      "image": "images/projects/datalagbe.png",
-      "title": "DataLagbe",
-      "bodyText": "- A data marketplace is an online transactional location or store that facilitates the buying and selling of data.\n - Store dataset in **aws s3** buckets.\n - Dataset open using **google colab**.\n - Write API documentation using postman.",
+      "image": "images/projects/debitcredit.png",
+      "title": "DebitCredit",
+      "bodyText": "- A secure and easy way to **track** your **expenses** and **income**.\n - Create **expenses** / **income** category.\n - Create **payment** category.\n - Create monthly **budget** category wise.\n - Debt & owed tracking.\n - Export data / **google drive** backup.\n - Send data via email.\n - **Currency** setup.",
       "links": [
         {
           "text": "Live",
-          "href": "https://datalagbe.com"
+          "href": "https://debitcredit.devfik.com"
         }
       ],
+      "tags": [
+        "Node.js",
+        "Express.js",
+        "PostgreSQL",
+        "Jenkins",
+        "Nginx"
+      ]
+    },
+    {
+      "image": "images/projects/datalagbe.png",
+      "title": "DataLagbe",
+      "bodyText": "- A data marketplace is an online transactional location or store that facilitates the buying and selling of data.\n - Store dataset in **aws s3** buckets.\n - Dataset open using **google colab**.\n - Write API documentation using postman.",
+      "links": [],
       "tags": [
         "Node.js",
         "Express.js",
@@ -26,26 +39,21 @@
       "links": [
         {
           "text": "GitHub",
-          "href": "https://github.com/jinnatul/nano-app"
+          "href": "https://github.com/jinnatul/node-starter"
         },
         {
           "text": "Live",
           "href": "https://user-images.githubusercontent.com/31995155/185107105-5df974f9-ccf0-467d-a365-5225e8d017eb.mp4"
         }
       ],
-      "tags": ["Node.js", "Express.js", "OTP", "MFA", "NPM", "NPX"]
-    },
-    {
-      "image": "images/projects/debitcredit.png",
-      "title": "DebitCredit",
-      "bodyText": "- A secure and easy way to **track** your **expenses** and **income**.\n - Create **expenses** / **income** category.\n - Create **payment** category.\n - Create monthly **budget** category wise.\n - Debt & owed tracking.\n - Export data / **google drive** backup.\n - Send data via email.\n - **Currency** setup.",
-      "links": [
-        {
-          "text": "Live",
-          "href": "https://debitcredit.info"
-        }
-      ],
-      "tags": ["Node.js", "Express.js", "PostgreSQL", "Jenkins", "Nginx"]
+      "tags": [
+        "Node.js",
+        "Express.js",
+        "OTP",
+        "MFA",
+        "NPM",
+        "NPX"
+      ]
     },
     {
       "image": "images/projects/odc.png",
@@ -57,7 +65,12 @@
           "href": "https://play.google.com/store/apps/details?id=com.iccdrb.online_doctor_chember&referrer=utm_source%3Dapps.facebook.com%26utm_campaign%3Dfb4a%26utm_content%3D%257B%2522app%2522%253A0%252C%2522t%2522%253A1666635769%252C%2522source%2522%253Anull%257D"
         }
       ],
-      "tags": ["Node.js", "Express.js", "MongoDB", "GitHub CI/CD"]
+      "tags": [
+        "Node.js",
+        "Express.js",
+        "MongoDB",
+        "GitHub CI/CD"
+      ]
     },
     {
       "image": "images/projects/twitter_bot.png",
@@ -69,7 +82,12 @@
           "href": "https://github.com/jinnatul/twitter-bot"
         }
       ],
-      "tags": ["Node.js", "Express.js", "Twitter", "Bot"]
+      "tags": [
+        "Node.js",
+        "Express.js",
+        "Twitter",
+        "Bot"
+      ]
     },
     {
       "image": "images/projects/Inventory.jpg",
@@ -81,7 +99,12 @@
           "href": "https://drive.google.com/file/d/16cj-JJAbNkz-G_Lc_nvBTi2G787QtXR-/edit"
         }
       ],
-      "tags": ["Node.js", "Express.js", "MongoDB", "GitHub CI/CD"]
+      "tags": [
+        "Node.js",
+        "Express.js",
+        "MongoDB",
+        "GitHub CI/CD"
+      ]
     },
     {
       "image": "images/projects/bdmap.gif",
@@ -97,7 +120,11 @@
           "href": "https://raw.githubusercontent.com/xlabbd/bdCovidMap/master/assets/gif/bdmap.gif"
         }
       ],
-      "tags": ["JavaScript", "HTML", "CSS"]
+      "tags": [
+        "JavaScript",
+        "HTML",
+        "CSS"
+      ]
     },
     {
       "image": "images/projects/githelper.jpg",
@@ -113,7 +140,12 @@
           "href": "https://jinnatul.github.io/gitHelper"
         }
       ],
-      "tags": ["JavaScript", "HTML", "CSS", "GitHub"]
+      "tags": [
+        "JavaScript",
+        "HTML",
+        "CSS",
+        "GitHub"
+      ]
     },
     {
       "image": "images/projects/node_pro.png",
@@ -125,7 +157,12 @@
           "href": "https://github.com/xlabbd/nodeJS-Professionals"
         }
       ],
-      "tags": ["JavaScript", "Node.js", "Express.js", "GitHub"]
+      "tags": [
+        "JavaScript",
+        "Node.js",
+        "Express.js",
+        "GitHub"
+      ]
     }
   ]
 }

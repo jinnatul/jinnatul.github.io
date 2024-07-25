@@ -2,11 +2,15 @@
   "social": [
     {
       "network": "linkedin",
-      "href": "https://www.linkedin.com/in/morol1957"
+      "href": "https://www.linkedin.com/in/zinnatul"
     },
     {
       "network": "github",
       "href": "https://github.com/jinnatul"
+    },
+    {
+      "network": "upwork",
+      "href": "https://www.upwork.com/freelancers/~01a96ecd5effe02445"
     },
     {
       "network": "twitter",
@@ -26,7 +30,7 @@
     },
     {
       "network": "youtube",
-      "href": "https://www.youtube.com/channel/UCc9Bj9gAS0wWR0DCvkN3H5Q"
+      "href": "https://www.youtube.com/@zinnatulmorol"
     }
   ]
 }
