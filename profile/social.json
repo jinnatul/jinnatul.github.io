@@ -1,0 +1,36 @@
+{
+  "social": [
+    {
+      "network": "linkedin",
+      "href": "https://www.linkedin.com/in/zinnatul"
+    },
+    {
+      "network": "github",
+      "href": "https://github.com/jinnatul"
+    },
+    {
+      "network": "upwork",
+      "href": "https://www.upwork.com/freelancers/~01a96ecd5effe02445"
+    },
+    {
+      "network": "twitter",
+      "href": "https://twitter.com/jinnatul_md"
+    },
+    {
+      "network": "facebook",
+      "href": "https://www.facebook.com/morol1957"
+    },
+    {
+      "network": "whatsapp",
+      "href": "https://wa.me/01793696177"
+    },
+    {
+      "network": "email",
+      "href": "mailto:morolswediu@gmail.com"
+    },
+    {
+      "network": "youtube",
+      "href": "https://www.youtube.com/@zinnatulmorol"
+    }
+  ]
+}

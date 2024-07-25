@@ -1,0 +1,48 @@
+{
+  "logo": {
+    "source": "images/logo.png",
+    "height": 50,
+    "width": 50
+  },
+  "sections": [
+    {
+      "title": "Home",
+      "href": "/"
+    },
+    {
+      "title": "About",
+      "href": "/about"
+    },
+    {
+      "title": "Experience",
+      "href": "/experience"
+    },
+    {
+      "title": "Skills",
+      "href": "/skills"
+    },
+    {
+      "title": "Education",
+      "href": "/education"
+    },
+    {
+      "title": "Projects",
+      "href": "/projects"
+    },
+    {
+      "title": "Projects handovers",
+      "href": "https://docs.google.com/document/d/1LmdPCrhSIJ59ShzlxxFsKROPEQi9w4BDjMvyAj7nGkQ",
+      "type": "link"
+    },
+    {
+      "title": "Blog",
+      "href": "https://programming-jinnatul.blogspot.com",
+      "type": "link"
+    },
+    {
+      "title": "Resume",
+      "href": "https://drive.google.com/file/d/1o_XwX5qGUbAnV_aghEJ3tKd9K2uUyAi3/view",
+      "type": "link"
+    }
+  ]
+}

@@ -1,0 +1,168 @@
+{
+  "projects": [
+    {
+      "image": "images/projects/debitcredit.png",
+      "title": "DebitCredit",
+      "bodyText": "- A secure and easy way to **track** your **expenses** and **income**.\n - Create **expenses** / **income** category.\n - Create **payment** category.\n - Create monthly **budget** category wise.\n - Debt & owed tracking.\n - Export data / **google drive** backup.\n - Send data via email.\n - **Currency** setup.",
+      "links": [
+        {
+          "text": "Live",
+          "href": "https://debitcredit.devfik.com"
+        }
+      ],
+      "tags": [
+        "Node.js",
+        "Express.js",
+        "PostgreSQL",
+        "Jenkins",
+        "Nginx"
+      ]
+    },
+    {
+      "image": "images/projects/datalagbe.png",
+      "title": "DataLagbe",
+      "bodyText": "- A data marketplace is an online transactional location or store that facilitates the buying and selling of data.\n - Store dataset in **aws s3** buckets.\n - Dataset open using **google colab**.\n - Write API documentation using postman.",
+      "links": [],
+      "tags": [
+        "Node.js",
+        "Express.js",
+        "PostgreSQL",
+        "AWS S3",
+        "Jenkins",
+        "Nginx"
+      ]
+    },
+    {
+      "image": "images/projects/nano.png",
+      "title": "Node.JS Template (Nano App)",
+      "bodyText": "- Creating a node.js application structure using a single line command.\n - **ES6+** configuration (Babel).\n - **Google** authentication (Passport strategy).\n - Email authentication with **OTP** verification (Sent mail using Google Gmail).\n - Implement **MFA** using speakeasy.\n - Modern data validation using **Joi**.",
+      "links": [
+        {
+          "text": "GitHub",
+          "href": "https://github.com/jinnatul/node-starter"
+        },
+        {
+          "text": "Live",
+          "href": "https://user-images.githubusercontent.com/31995155/185107105-5df974f9-ccf0-467d-a365-5225e8d017eb.mp4"
+        }
+      ],
+      "tags": [
+        "Node.js",
+        "Express.js",
+        "OTP",
+        "MFA",
+        "NPM",
+        "NPX"
+      ]
+    },
+    {
+      "image": "images/projects/odc.png",
+      "title": "Online Doctor Chamber (ODC)",
+      "bodyText": "- A project for International Centre for Diarrhoeal Disease Research, Bangladesh (ICDDR, B).\n - Doctor create slots.\n - Patient can easily take appointment.\n - Patient need to pay doctor fee using backgladeshi mobile financial service (bKash).\n - Doctor can write prescriptions.",
+      "links": [
+        {
+          "text": "Live",
+          "href": "https://play.google.com/store/apps/details?id=com.iccdrb.online_doctor_chember&referrer=utm_source%3Dapps.facebook.com%26utm_campaign%3Dfb4a%26utm_content%3D%257B%2522app%2522%253A0%252C%2522t%2522%253A1666635769%252C%2522source%2522%253Anull%257D"
+        }
+      ],
+      "tags": [
+        "Node.js",
+        "Express.js",
+        "MongoDB",
+        "GitHub CI/CD"
+      ]
+    },
+    {
+      "image": "images/projects/twitter_bot.png",
+      "title": "Twitter bot",
+      "bodyText": "- Retweet and like your tweet.\n - 3 types hashtags retweet like #nodejs, #javascript, #100DaysOfCode.",
+      "links": [
+        {
+          "text": "GitHub",
+          "href": "https://github.com/jinnatul/twitter-bot"
+        }
+      ],
+      "tags": [
+        "Node.js",
+        "Express.js",
+        "Twitter",
+        "Bot"
+      ]
+    },
+    {
+      "image": "images/projects/Inventory.jpg",
+      "title": "Inventory System",
+      "bodyText": "- A secured solution to tracking inventory levels, orders, deliveries.\n - Order wise **QR** code generation.\n - **Online** & offline sales.\n - Manage inventory **accounts**.\n - Easy export **reports**.",
+      "links": [
+        {
+          "text": "Live",
+          "href": "https://drive.google.com/file/d/16cj-JJAbNkz-G_Lc_nvBTi2G787QtXR-/edit"
+        }
+      ],
+      "tags": [
+        "Node.js",
+        "Express.js",
+        "MongoDB",
+        "GitHub CI/CD"
+      ]
+    },
+    {
+      "image": "images/projects/bdmap.gif",
+      "title": "Bd COVID-19 Map",
+      "bodyText": "- Visual of our country of number of COVID-19 patients in every district.\n - Anyone can get overall visual of our country's present status of COVID-19.",
+      "links": [
+        {
+          "text": "GitHub",
+          "href": "https://github.com/xlabbd/bdCovidMap"
+        },
+        {
+          "text": "Live",
+          "href": "https://raw.githubusercontent.com/xlabbd/bdCovidMap/master/assets/gif/bdmap.gif"
+        }
+      ],
+      "tags": [
+        "JavaScript",
+        "HTML",
+        "CSS"
+      ]
+    },
+    {
+      "image": "images/projects/githelper.jpg",
+      "title": "Git Helper",
+      "bodyText": "- This project help for the developer to learn about git or Github Commands.",
+      "links": [
+        {
+          "text": "GitHub",
+          "href": "https://github.com/jinnatul/gitHelper"
+        },
+        {
+          "text": "Live",
+          "href": "https://jinnatul.github.io/gitHelper"
+        }
+      ],
+      "tags": [
+        "JavaScript",
+        "HTML",
+        "CSS",
+        "GitHub"
+      ]
+    },
+    {
+      "image": "images/projects/node_pro.png",
+      "title": "NodeJS Professional Notes",
+      "bodyText": "- NodeJS Notes For Professionals.",
+      "links": [
+        {
+          "text": "GitHub",
+          "href": "https://github.com/xlabbd/nodeJS-Professionals"
+        }
+      ],
+      "tags": [
+        "JavaScript",
+        "Node.js",
+        "Express.js",
+        "GitHub"
+      ]
+    }
+  ]
+}
