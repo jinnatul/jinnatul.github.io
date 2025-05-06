@@ -2,6 +2,20 @@
   "experiences": [
     {
       "title": "Software Engineer",
+      "subtitle": "Retreat Technologies, Inc.",
+      "workType": "Full-time",
+      "workDescription": [
+        "Integrated **Oracle Hospitality** for real-time room availability checks and group sales block creation.",
+        "Implemented hotel messaging system and feedback survey to enhance guest engagement.",
+        "Built **OpenAI**-powered solution to extract RFP data from email attachments, reducing manual effort.",
+        "Grouped related emails into a single thread and synced replies with the in-app messaging system.",
+        "Developed F&B minimum spend configuration logic for event planning workflows.",
+        "NestJS, Next.js, Prisma, PostgreSQL"
+      ],
+      "dateText": "09/2024 – Present"
+    },
+    {
+      "title": "Software Engineer",
       "subtitle": "V2 Technologies Ltd",
       "workType": "Full-time",
       "workDescription": [
@@ -12,7 +26,7 @@
         "Implemented a file-sharing platform, here clients upload big files like 1GB/2GB, etc. Implemented chunk-wise upload and store files at AWS S3 and generated dynamic 3/4 thumbnails using the image processing library Sharp.",
         "Express.JS, PostgreSQL, AWS (EC2, S3, SQS, SES), Jenkins."
       ],
-      "dateText": "07/2022 – Present"
+      "dateText": "06/2022 – 09/2024"
     },
     {
       "title": "Jr. Software Engineer",
